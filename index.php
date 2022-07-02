@@ -27,3 +27,4 @@ function ocr($image, $api, $mode)
    echo $response;
 }
 echo ocr($image, $api, $mode);
+?>
