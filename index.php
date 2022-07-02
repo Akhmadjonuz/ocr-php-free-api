@@ -1,9 +1,10 @@
 <?php
 error_reporting(0);
-$image      = new CURLFILE("image.jpg"); // image location
-$api        = 'donotstealthiskey3589';
-$language   = 'ar'; 
-$mode       = ( $language == 'ar' ) ? $lang = 'ara' : 'eng';
+$image = new CURLFILE("image.jpg"); // image location
+$api = 'donotstealthiskey3589';
+$language = 'ar'; 
+$mode = ( $language == 'ar' ) ? $lang = 'ara' : 'eng';
+
 Function ocr($image, $api, $mode)
 {
    $url  = 'https://api8.ocr.space/parse/image';
