@@ -5,7 +5,7 @@ $api = 'donotstealthiskey3589';
 $language = 'ar'; 
 $mode = ( $language == 'ar' ) ? $lang = 'ara' : 'eng';
 
-Function ocr($image, $api, $mode)
+function ocr($image, $api, $mode)
 {
    $url  = 'https://api8.ocr.space/parse/image';
    $ch   = curl_init($url);
